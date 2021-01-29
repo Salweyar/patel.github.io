@@ -2685,6 +2685,13 @@ input[type="radio"]:focus + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
+/* pdf */
+
+.pdf {
+  position: relative;
+  right: 25px;
+}
+
 /* Image */
 
 .image {

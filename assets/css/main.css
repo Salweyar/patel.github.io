@@ -4102,8 +4102,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   position: absolute;
   width: 6px;
   background-color: rgb(143, 130, 130);
-  top: 4.7%;
-  bottom: 22%;
+  top: 0;
+  bottom: 0;
   left: 50%;
   margin-left: -3px;
 }
@@ -4344,7 +4344,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 480px) {
   #footer {
-    width: 100%;
+    width: 75%;
+  }
+
+  footer.copyright {
+    word-wrap: break-word;
   }
 }
 
